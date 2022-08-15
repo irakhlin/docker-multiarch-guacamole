@@ -8,7 +8,7 @@ COPY --from=qemu /usr/bin/qemu-*-static /usr/bin/
 
 ENV \
   GUACAMOLE_HOME=/app/guacamole \
-  GUAC_VER=1.3.0 \
+  GUAC_VER=1.4.0 \
   PG_MAJOR=9.6 \
   PGDATA=/data/postgres \
   POSTGRES_USER=guacamole \
